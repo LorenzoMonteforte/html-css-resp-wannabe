@@ -77,7 +77,7 @@ img {
 
 /* LESSONS SECTION */
 .lessons .col {
-    width: 50%;
+    width: 100%;
 }
 
 .lessons .col img {
@@ -127,3 +127,31 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ @media only screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+ }
+
+ @media only screen and (max-width: 480px){
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+ }

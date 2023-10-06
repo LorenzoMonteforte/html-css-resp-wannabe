@@ -154,6 +154,19 @@ img {
     .why-us .col-right {
         width: 100%;
     }
+
+    .why-us{
+        background-color: rgba(34,34,34,255);
+        padding: 3em 0;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        margin-bottom: 0;
+    }
  }
 
  @media only screen and (min-width: 769px){
